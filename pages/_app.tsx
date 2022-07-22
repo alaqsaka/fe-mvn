@@ -14,7 +14,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Link href="/chart">
         Ke halaman Soal 2
       </Link>
+
       <div>
+      <h1 className='font-bold text-4xl text-center mt-4'>
+        Maven Hiring Test - Logic
+        </h1>
         <Component {...pageProps} />
       </div>
     </div>
